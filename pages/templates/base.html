@@ -30,7 +30,7 @@
 
           <li class="nav-item">
             <div class="container">
-              <a class="nav-link" href="{% url 'home' %}">Home</a>
+              <a class="nav-link" href="{% url 'list' %}">List</a>
             </div>
           </li>
 
@@ -44,8 +44,8 @@
           
           <li class="nav-item">
             <div class="container">
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Brewery Name" aria-label="Search">
+              <form class="form-inline my-2 my-lg-0" action="{% url 'search' %}" method="get">
+                <input class="form-control mr-sm-2" name="q" type="text" placeholder="Brewery Name" aria-label="Search">
                 <button class="btn btn-secondary" type="submit">Search</button>
               </form>
             </div>
