@@ -6,16 +6,16 @@ In order to clone and use the source files as is, Python and Django must be inst
 
 1. Download the Django-Brewery project root folder on your local machine.
 
-2. In your terminal, navigate to the root project folder
+2. In your terminal, navigate to the root project folder.
 
 3. Run the command 'pip install virtualenv' to install the virtual environment files.
 
 4. Run the command 'pip install Django' to install the web app framework.
 
-5. Run the command to launch the virtual environment. For Windows (Powershell): '.\Scripts\activate'
+5. Run the command to launch the virtual environment. For Windows (Powershell): '.\Scripts\activate'.
 
-6. Run the command to launch the local server. For Windows (Powershell): '.\manage.py runserver'
+6. Run the command to launch the local server. For Windows (Powershell): '.\manage.py runserver'.
 
-7. If successful, the python console will deploy a local server with a local URL to run the web app. This should be something like 'http://127.0.0.1:8000/'
+7. If successful, the python console will deploy a local server with a local URL to run the web app. This should be something like 'http://127.0.0.1:8000/'.
 
 8. Navigate to the URL and the web app should be functional locally.
