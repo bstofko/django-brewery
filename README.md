@@ -1,6 +1,6 @@
 # django-brewery
 Description:
-This project was made in Python using the Django Web App framework. The site queries the Open Brewery DB API to fetch a list of all breweries in the city of San Antonio. The endpoint can be adjusted to fetch by city or state. The navbar also contains a search input form in order to search by brewery name. If a match is found, the details of the matched brewery is displayed individually on the app.
+This project was made in Python using the Django Web App framework. The site queries the Open Brewery DB API to fetch a list of all breweries in the city of San Antonio. The endpoint can be adjusted to fetch by city or state. The navbar also contains a search input form to search by brewery name. If a match is found, the details of the matched brewery is displayed individually on the app.
 
 Instructions:
 In order to clone and use the source files as is, Python and Django must be installed on the system. A local server must be initiated in a virtual environment:
