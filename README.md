@@ -4,7 +4,8 @@ This project was made in Python using the Django Web App framework. The site que
 Instructions:
 In order to clone and use the source files as is, Python and Django must be installed on the system. A local server must be initiated in a virtual environment:
 
-1. Download the Django-Brewery project root folder on your local machine.
+1. Clone the Django-Brewery project root folder on your local machine. In your terminal, run the command:<br/>
+   'git clone https://github.com/bstofko/django-brewery'
 
 2. In your terminal, navigate to the root project folder.
 
